@@ -1,0 +1,48 @@
+body {
+	background-color: #ddd;
+	font-family: "Lato", sans-serif;
+}
+
+.title {
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 22px;
+}
+
+.word-grid-container {
+	display: inline-grid;
+	margin-top: 20px;
+}
+
+.word-grid table div {
+	width: 22px;
+	height: 22px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.grid-letter {
+	background: white;
+	text-align: center;
+}
+
+.button {
+	cursor: pointer;
+	text-align: center;
+	padding: 4px;
+	background-color: #19aa5d;
+	border-radius: 8px;
+	font-weight: bold;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #222;
+	box-shadow: 8px 8px 8px #666;
+}
+
+#pause-play-button {
+	width: 60px;
+}
+
+#score-container div {
+	display: inline;
+}

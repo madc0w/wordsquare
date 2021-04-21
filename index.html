@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Crosswords</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/> 
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="words.js"></script>
+<script type="text/javascript" src="gen.js"></script>
+</head>
+<body onLoad="onLoad();">
+<div id="pause-play-button" class="button" onClick="togglePause();">Pause</div>
+<div>
+	<div class="word-grid-container">
+		<div class="title">Current</div>
+		<div class="word-grid" id="crosswords">
+			<table></table>
+		</div>
+		<div id="score-container">
+			Score: <div id="current-score"></div>
+		</div>
+	</div>
+	<div class="word-grid-container">
+		<div class="title">Best</div>
+		<div class="word-grid" id="best-crosswords"></div>
+		<div id="score-container">
+			Score: <div id="best-score"></div>
+		</div>
+		<div id="best-date"></div>
+	</div>
+</div>
+</body>
+</html>
